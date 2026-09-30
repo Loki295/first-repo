@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body style="background-color: rgb(185, 232, 183);"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width", initial-scale=1">
+    <title>Reservation of Railway Ticket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 align="center">IRCTC Train Ticket Booking</b></h1><br><hr color="black">
+     <form class="registrationform">
+        <h2 align="center"><b><u>Train Details</u></b></h2>
+        <br>
+        <div class="boss">
+            <label for="DATE">Date:</label>
+            <input type="date" id="DATE" name="DATE">
+            <br>
+            <br>
+            <label for="destination">From:</label>
+            <input type="text" id="destination" name="destination" placeholder="Initial location" style="margin-right: 100px;"> 
+            <label for="time"> Arrival Time:</label>
+            <input type="time" name="time" id="time" placeholder="Arrival">
+        </div>    
+            <br>
+        <div class="boss">
+            <label for="destination">To:</label>
+            <input type="text" name="destination" id="destination" placeholder="Final location" style="margin-right: 100px;">
+            <label for="time">Departure Time:</label>
+            <input type="time" name="time" id="time" placeholder="Departure">
+        </div>
+        <br><br>
+        <hr color="black">
+        <h2 align="center"><b><u>Passenger Details</u></b></h2>
+        <br>
+        <div class="word">
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name">
+        <input type="text" id="fname" name="fname" placeholder="Last Name">
+        </div>
+        <br>
+        <div class="word">
+        <label for="fathername">Father's Name:</label>
+        <input type="text" id="fathername" name="fathername" placeholder="First Name">
+        <input type="text" id="fathername" name="fathername" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="age">
+        </div>
+        <br>
+        <div>
+            <label for="gender" style="margin-right: 70px;">Enter Gender:</label>
+            <label for="gender">Male</label>
+            <input type="checkbox" name="gender" id="gender" style="margin-right: 20px;">
+            <label for="gender">Female</label>
+            <input type="checkbox" name="gender" id="gender" style="margin-right: 20px;">
+            <label for="gender">Others</label>
+            <input type="checkbox" name="" id="">
+            <br><br>
+            <label for="number">Phone no.</label>
+            <input type="tel" name="number" id="number" placeholder="1234-1234">
+            <br><br>
+            <label for="coach">Select Class:</label>
+            <select name="coach" id="coach">
+                <option value="coach">1A</option>
+                <option value="coach">2A</option>
+                <option value="coach">3A</option>
+                <option value="coach">SL</option>
+                <option value="coach">GS</option>
+            </select>
+            <br><br>
+            <label for="passenger">Number Of passenger:</label>
+            <input type="number" name="passenger" id="passenger">
+            <br><br>
+            <label for="passenger">Childrens</label>
+            <input type="number" name="passenger" id="passenger" style="margin-right: 50px;">
+            <br><br>
+            
+            <label for="passenger">Adults</label>
+            <input type="text" name="" id="">
+            <br><br>
+            <label for="cash">mode of payment:</label>
+            <select name="cash" id="cash">
+                <option value="cash">Cash</option>
+                <option value="cash">Bank Transfer</option>
+                <option value="cash">U.P.I</option>
+            </select>
+            <hr color="black">
+            <br><br>
+            <div align="center">
+            <button>Book Ticket</button>
+            <button>Reset</button>
+            </div>
+        </div>
+    </form>
+
+    
+</body>
+</html>
